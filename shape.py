@@ -7,5 +7,8 @@ def draw_shape(options):
 
     shape += "\n"
 
-
   return shape
+
+print(draw_shape({'cols':4,'rows':4,'char':'*'}))
+
+print(draw_shape({'cols':9,'rows':3,'char':'0'}))
